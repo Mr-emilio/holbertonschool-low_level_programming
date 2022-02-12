@@ -19,6 +19,6 @@ if (div10 > 5)
 if (div10 == 0)
 	printf("Last digit of %d is %d and is 0\n", n, div10);
 if ((div10 < 6) && (div10 != 0))
-	printf("Last digit of %d is %d and is less than 6 and not 0", n, div10);
+	printf("Last digit of %d is %d and is less than 6 and not 0\n", n, div10);
 return (0);
 }
