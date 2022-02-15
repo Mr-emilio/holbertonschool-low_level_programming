@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
  * if dont read documentation, pls dont copy
- * my first cprogram
+ * my first cprogram -m4602
  */
 /**
  * main - entry point, dont take arguments. print the sentence
