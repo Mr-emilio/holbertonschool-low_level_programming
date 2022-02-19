@@ -11,9 +11,9 @@ void more_numbers(void)
 	{
 	for (nu = 0; nu <= 14; nu++)
 	{
-		if (p > 9)
-		_putchar((p / 10) + '0');
-		_putchar((p % 10) + '0');
+		if (nu > 9)
+		_putchar((nu / 10) + '0');
+		_putchar((nu % 10) + '0');
 	}
 	_putchar('\n');
 	}
