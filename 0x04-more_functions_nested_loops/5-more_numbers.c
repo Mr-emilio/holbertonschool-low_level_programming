@@ -6,6 +6,7 @@ void more_numbers(void)
 {
 	int veces;
 	char nu;
+
 	for (veces = 0; veces < 10; veces++)
 	{
 	for (nu = 0; nu <= 14; nu++)
