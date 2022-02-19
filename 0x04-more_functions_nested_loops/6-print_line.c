@@ -2,14 +2,16 @@
 
 /**
  * print_line - my funtion that print a line
- * @n: is the number of times the _ should be printed
+ * @n: the variable
  */
 void print_line(int n)
 {
+	int n;
+
 	while (n > 0)
 	{
 	_putchar('_');
 	n--;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
