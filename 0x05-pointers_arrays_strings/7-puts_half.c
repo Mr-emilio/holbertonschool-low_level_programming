@@ -17,6 +17,6 @@ if ((c % 2) == 1)
 for (i = j; str[i] != '\0'; i++)
 {
 	_putchar(str[i]);
-	_putchar('\n');
 }
+_putchar('\n');
 }
