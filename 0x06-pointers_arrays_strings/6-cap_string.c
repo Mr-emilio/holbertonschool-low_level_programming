@@ -14,7 +14,7 @@ char *cap_string(char *p)
 		if (*(p + i) >= 'a' && *(p + i) <= 'z')
 			for (j = 0; *(sig + j) != '\0'; j++)
 			{
-				if (*(p + i -1) == *(sig + j))
+				if (*(p + i - 1) == *(sig + j))
 				{
 					*(p + i) -= 32;
 					break;
@@ -26,5 +26,5 @@ char *cap_string(char *p)
 				}
 			}
 	}
-	return (a);
+	return (p);
 }
