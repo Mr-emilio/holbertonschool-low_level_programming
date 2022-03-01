@@ -14,7 +14,9 @@ for (i = 0; *(s + i) != 00; i++)
 	for (j = 0; *(accept + j) != 00; j++)
 	{
 		if (*(s + i) == *(accept + j))
+		{
 			return (s + i);
+		}
 	}
 }
 return (00);
