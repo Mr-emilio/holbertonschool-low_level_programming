@@ -12,7 +12,7 @@ int _sqrt_recursion(int n)
 	return (dos_sqrt(n, 0));
 }
 /**
- * sqrt - function for sqrt of number
+ * dos_sqrt - function for sqrt of number
  * @n: variable type int
  * @i: variable type int
  * Return: variable i
