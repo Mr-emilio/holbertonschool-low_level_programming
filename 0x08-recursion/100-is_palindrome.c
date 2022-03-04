@@ -12,7 +12,7 @@ int is_palindrome(char *s)
 	if (lon == 0)
 		return (1);
 
-	return (compare_chars(s, 0, lon - 1));
+	return (check_igual_char(s, 0, lon - 1));
 }
 /**
  * check_igual_char - check if the char are igual
