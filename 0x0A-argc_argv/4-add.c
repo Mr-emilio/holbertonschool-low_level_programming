@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlab.h>
+#include <stdlib.h>
 /**
  * main - function main add positive num
  * @argc: arguments count
