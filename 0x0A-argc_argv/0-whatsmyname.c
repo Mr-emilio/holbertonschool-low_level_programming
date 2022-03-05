@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include <stdio.h>
 /**
  * main - function main print name
@@ -6,7 +5,7 @@
  * @argv: variable type int, its array of arguments
  * Return: 0
  */
-int main(int argc, int *argv[])
+int main(int argc, char *argv[])
 {
 	argc = 0;
 
