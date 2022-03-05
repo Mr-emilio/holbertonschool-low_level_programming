@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 /**
  * main - function main print name
  * @argc: variable type int, its number of arguments
