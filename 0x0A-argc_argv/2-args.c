@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - function main 
+ * main - function main
  * @argc: num of strings
  * @argv: contains the strings
  * Return: 0
