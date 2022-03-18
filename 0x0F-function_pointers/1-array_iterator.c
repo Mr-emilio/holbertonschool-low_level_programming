@@ -1,4 +1,4 @@
-#include "function_pinters.h"
+#include "function_pointers.h"
 /**
  * array_iterator - function main
  * @array: array pointer to be processed
