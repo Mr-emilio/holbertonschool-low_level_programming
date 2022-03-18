@@ -1,7 +1,7 @@
 #include "finction_pointers.h"
 /**
  * int_index - function main searches ints
- * @array: array pointer 
+ * @array: array pointer
  * @size: size of array
  * @cmp: pointer used to compare values
  * Return: -1 if no matches elements or index
