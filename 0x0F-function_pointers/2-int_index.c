@@ -1,4 +1,4 @@
-#include "finction_pointers.h"
+#include "function_pointers.h"
 /**
  * int_index - function main searches ints
  * @array: array pointer
