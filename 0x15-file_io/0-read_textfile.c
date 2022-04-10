@@ -14,11 +14,15 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (!filename)
 		return (0);
 
+	fl = open(filename, O_RDWR);
+	if (fl == -1)
+		return (0);
+
 	buffer = malloc(sizeof(char) * letters);
 	if (!buffer)
 		return (0);
 
-	letteread = read(file, buffer, letters);
+	letteread = read(fl, buffer, letters);
 	if (letteread == -1)
 	{
 		free(buffer);
@@ -32,7 +36,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		free(buffer);
 		return (0);
 	}
-	close(file);
+	close(fl);
 	free(buffer);
 	return (letterprint);
 }
