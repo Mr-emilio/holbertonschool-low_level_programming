@@ -1,11 +1,12 @@
 #include "search_algos.h"
 
 /**
- * print_search - prints an array of integers
- * @array: array to print
- * @low: lowest index of the array
- * @high: highest index of the array
- * return: void
+ * binary_search - searches in a sorted array of integers using Binary search
+ * @array: pointer to the first element of the array to search in
+ * @size: number of elements in array
+ * @value: value to search for
+ * Return: the index where value is located
+ * -1 If value is not present in array or if array is NULL
  */
 int binary_search(int *array, size_t size, int value)
 {
